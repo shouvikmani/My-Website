@@ -1,0 +1,467 @@
+/********************************
+GENERAL
+********************************/
+
+footer {
+	color: #ffffff;
+	background: #6ab47b;
+	height: 260px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Fixes Bootstrap space on right issue*/
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+p {
+	font-size: 17px;
+}
+
+.horizLine {
+	border-bottom: medium solid #ddd;
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrapper {
+	max-width: 1280px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/********************************
+HEADING
+********************************/
+
+#logo {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+.navbar-header {
+	margin-left: 5%;
+	float: left;
+	width: 200px;
+	height: 100px;
+	padding-top: 20px;
+}
+
+.navbar-right {
+	float: right!important;
+	margin-top: 5px;
+	margin-right: 5%;
+	padding-top: 20px;
+}
+
+.navbar-inverse .navbar-toggle {
+	margin-top: 28px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #6ab47b;
+}
+
+
+
+/********************************
+INTRO SECTION
+********************************/
+
+.introBlock {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.sidebar {
+	width: 160px;
+	float: left;
+	margin-left: 20%;
+}
+
+#introPic {
+	width: 160px;
+	border-radius: 15px;
+}
+
+.introText {
+	font-size: 19px;
+	margin-left: 35%;
+	margin-right: 20%;
+}
+
+.highlightedText {
+	font-size: 24px;
+}
+
+@media (min-width: 992px) {
+}
+
+
+/********************************
+PROJECT SECTION
+********************************/
+.projectBlock {
+	margin-left: 5%;
+}
+
+.category {
+	font-size: 30px;
+}
+
+.thumbnail {
+	text-align: center;
+	width: 200px;
+	border: 2px solid #ddd;
+	transition: border-color 1s, color 1s;
+}
+
+.thumbnail:hover, .thumbnail:hover h3, .thumbnail:hover h4{
+	border-color: #6ab47b;
+	color: #6ab47b;
+}
+
+.projectRow {
+	margin-left: 5%;
+	margin-top: 30px;
+}
+
+
+
+
+/********************************
+EXPERIENCE SECTION
+********************************/
+.experienceBlock{
+	margin-left: 5%;
+}
+
+
+
+/********************************
+FOOTER
+********************************/
+.copyright {
+	width: 200px;
+	margin-left: 85%;
+	position: relative;
+	top: -30px;
+} 
+
+.resumeBlock{
+	margin-left: 5%;
+	color: #fff;
+	width: 25%;
+	height: 260px;
+	padding-top: 20px;
+	float: left;
+	border-right: thin solid #fff;
+}
+
+.resumeIndent {
+	margin-left: 12.5%;
+	margin-top: 30px;
+}
+
+.resumeIndent img {
+	width: 120px;
+	margin-top: -10px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	transition: border 1s;
+}
+
+.resumeImg > img:hover {
+	border: 2px solid #6ab47b;
+}
+
+.contactBlock {
+	width: 32%;
+	height: 260px;
+	color: #ffffff;
+	padding-top: 20px;
+	position: relative;
+	margin-left: 36%;
+	border-right: thin solid #fff;
+}
+
+.contactBlock img{
+	width: 50px;
+	border: solid #fff;
+	border-width: 3px;
+	border-radius: 5px;
+}
+
+.emailBlock {
+	padding-top: 30px;
+}
+
+.emailBlock h3 {
+	color: #6ab47b;
+	margin-top: 10px;
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+.emailBlock img {
+	float: left;
+	position: relative;
+	left: 30px;
+}
+
+.socialBlock {
+	position: relative;
+	left: 10px;
+}
+
+.socialBlock img{
+	margin-left: 20px;
+}
+
+
+
+
+/********************************
+HubUp
+********************************/
+
+.hubup {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.hubup a {
+	color: #999999;
+	transition: color 0.2s;
+}
+
+.hubup a:hover {
+	color: #6ab47b;
+}
+
+.hubup img {
+	width: 100%;
+	margin-bottom: 10px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	transition: border 0.5s;
+}
+
+.hubup img:hover {
+	border: 2px solid #6ab47b;
+}
+
+.smallImg {
+	width: 15%;
+	float: left;
+}
+
+#main {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #6ab47b;
+}
+
+/********************************
+CK-12 Reimagined
+********************************/
+
+.challenge {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.challenge a {
+	color: #999999;
+	transition: color 0.2s;
+}
+
+.challenge a:hover {
+	color: #6ab47b;
+}
+
+.challenge img {
+	width: 100%;
+	margin-bottom: 10px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	transition: border 0.5s;
+}
+
+.challenge img:hover {
+	border: 2px solid #6ab47b;
+}
+
+.challenge #main {
+	width: 70%;
+}
+
+
+/********************************
+CK-12
+********************************/
+
+.ck-12 {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.ck-12 a {
+	color: #999999;
+	transition: color 0.2s;
+}
+
+.ck-12 a:hover {
+	color: #6ab47b;
+}
+
+.ck-12 img {
+	width: 100%;
+	margin-bottom: 10px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	transition: border 0.5s;
+}
+
+.ck-12 img:hover {
+	border: 2px solid #6ab47b;
+}
+
+
+
+/********************************
+MoneyThink
+********************************/
+
+.moneythink {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.moneythink a {
+	color: #999999;
+	transition: color 0.2s;
+}
+
+.moneythink a:hover {
+	color: #6ab47b;
+}
+
+.moneythink img {
+	width: 40%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	transition: border 0.5s;
+}
+
+.moneythink img:hover {
+	border: 2px solid #6ab47b;
+}
+
+
+
+/********************************
+EPIC
+********************************/
+
+.epic {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.epic a {
+	color: #999999;
+	transition: color 0.2s;
+}
+
+.epic a:hover {
+	color: #6ab47b;
+}
+
+.epic img {
+	width: 200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	transition: border 0.5s;
+}
+
+.epic img:hover {
+	border: 2px solid #6ab47b;
+}
+
+.images {
+	margin-left: 15%;
+}
+
+
+/********************************
+COLOR
+********************************/
+
+/* Site body */
+body, h3, h4 {
+	color: #999999;
+}
+
+header .navbar{
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+/* Name text */
+h1, h2 {
+	color: #ffffff;
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+	transition: color 0.2s;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #555
+}
+
+/* Nav link color on hover */
+nav a:hover {
+	color: #32673f;
+}
+
+.highlightedText {
+	color: #6ab47b;
+}
+
+.back a {
+	color: #6ab47b;
+}
