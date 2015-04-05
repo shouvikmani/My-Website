@@ -346,6 +346,43 @@ CK-12
 
 
 /********************************
+Create Lab
+********************************/
+
+.createLab {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.createLab a {
+	color: #999999;
+	transition: color 0.2s;
+}
+
+.createLab a:hover {
+	color: #6ab47b;
+}
+
+.createLab img {
+	width: 100%;
+	margin-bottom: 10px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	transition: border 0.5s;
+}
+
+.createLab .mainPic {
+	width: 90%;
+	margin-left: 50px;
+}
+
+.createLab img:hover {
+	border: 2px solid #6ab47b;
+}
+
+
+
+/********************************
 MoneyThink
 ********************************/
 
