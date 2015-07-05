@@ -5,7 +5,6 @@ GENERAL
 footer {
 	color: #ffffff;
 	background: #6ab47b;
-	height: 260px;
 }
 
 a:hover {
@@ -27,7 +26,7 @@ p {
 }
 
 .horizLine {
-	border-bottom: medium solid #ddd;
+	border-bottom: 2px solid #ddd;
 	width: 60%;
 	display: block;
 	margin-left: auto;
@@ -41,6 +40,32 @@ p {
 	margin-right: auto;
 }
 
+#main {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #6ab47b;
+}
+
+.heading_green {
+	font-size: 22px;
+	color: #6ab47b;
+	float: left;
+	padding-right: 5px;
+}
+
+.heading {
+	font-size: 22px;
+}
+
+.experienceBlock .thumbnail, 
+.projectBlock .thumbnail {
+	float: left;
+	margin-right: 80px;
+	margin-bottom: 40px;
+}
+
 
 /********************************
 HEADING
@@ -51,6 +76,10 @@ HEADING
 	font-size: 30px;
 	margin-top: 0;
 	padding-top: 10px;
+}
+
+.navbar {
+	margin-bottom: 10px;
 }
 
 .navbar-header {
@@ -83,14 +112,12 @@ INTRO SECTION
 ********************************/
 
 .introBlock {
-	width: 100%;
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 50px;
-}
-
-.sidebar {
-	width: 160px;
-	float: left;
-	margin-left: 20%;
+	margin-bottom: 40px;
 }
 
 #introPic {
@@ -100,15 +127,37 @@ INTRO SECTION
 
 .introText {
 	font-size: 19px;
-	margin-left: 35%;
-	margin-right: 20%;
+	margin-left: 190px;
+}
+
+.sidebar {
+	float: left;
+	border-radius: 15px;
 }
 
 .highlightedText {
 	font-size: 24px;
 }
 
-@media (min-width: 992px) {
+@media screen and (max-width: 900px) {
+	#introPic {
+		width: 160px;
+		border-radius: 15px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.sidebar {
+		float: none;
+		border-radius: 15px;
+	}
+
+	.introText {
+		font-size: 19px;
+		margin-left: 0px;
+		padding-top: 30px;
+	}
 }
 
 
@@ -157,23 +206,25 @@ FOOTER
 ********************************/
 .copyright {
 	width: 200px;
-	margin-left: 85%;
-	position: relative;
-	top: -30px;
+	font-size: 15px;
+	padding-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 } 
 
 .resumeBlock{
-	margin-left: 5%;
-	color: #fff;
-	width: 25%;
+	padding-left: 40px;
+	width: 300px;
 	height: 260px;
+	color: #fff;
 	padding-top: 20px;
 	float: left;
 	border-right: thin solid #fff;
 }
 
 .resumeIndent {
-	margin-left: 12.5%;
+	margin-left: 50px;
 	margin-top: 30px;
 }
 
@@ -190,12 +241,11 @@ FOOTER
 }
 
 .contactBlock {
-	width: 32%;
+	width: 400px;
 	height: 260px;
 	color: #ffffff;
+	margin-left: 350px;
 	padding-top: 20px;
-	position: relative;
-	margin-left: 36%;
 	border-right: thin solid #fff;
 }
 
@@ -204,23 +254,6 @@ FOOTER
 	border: solid #fff;
 	border-width: 3px;
 	border-radius: 5px;
-}
-
-.emailBlock {
-	padding-top: 30px;
-}
-
-.emailBlock h3 {
-	color: #6ab47b;
-	margin-top: 10px;
-	font-size: 20px;
-	margin-left: 100px;
-}
-
-.emailBlock img {
-	float: left;
-	position: relative;
-	left: 30px;
 }
 
 .socialBlock {
@@ -232,8 +265,55 @@ FOOTER
 	margin-left: 20px;
 }
 
+@media screen and (max-width: 768px) {
+	.resumeBlock{
+		float: left;
+		border-right: none;
+		margin-bottom: 25px;
+	}
+	.resumeIndent {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+	.contactBlock {
+		margin-left: 0px;
+		padding-left: 40px;
+		border-right: none;
+	}
+	.socialBlock img{
+		margin-left: 0px;
+		margin-right: 14px;
+	}
+	footer {
+		height: 510px;
+	}
+}
 
 
+/********************************
+Palo Alto Networks
+********************************/
+
+.palo_alto_networks {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.palo_alto_networks a {
+	color: #999999;
+	transition: color 0.2s;
+}
+
+.palo_alto_networks a:hover {
+	color: #6ab47b;
+}
+
+.palo_alto_networks img {
+	margin-bottom: 10px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	transition: border 0.5s;
+}
 
 /********************************
 HubUp
@@ -270,13 +350,7 @@ HubUp
 	float: left;
 }
 
-#main {
-	width: 80%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border: 2px solid #6ab47b;
-}
+
 
 /********************************
 CK-12 Reimagined
