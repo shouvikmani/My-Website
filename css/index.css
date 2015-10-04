@@ -176,7 +176,6 @@ PROJECT SECTION
 	text-align: center;
 	width: 200px;
 	border: 2px solid #ddd;
-	transition: border-color 1s, color 1s;
 }
 
 .thumbnail:hover, .thumbnail:hover h3, .thumbnail:hover h4{
@@ -313,6 +312,7 @@ Palo Alto Networks
 	border: 2px solid #ddd;
 	border-radius: 5px;
 	transition: border 0.5s;
+	max-width: 450px;
 }
 
 /********************************
@@ -475,13 +475,15 @@ MoneyThink
 }
 
 .moneythink img {
-	width: 40%;
 	display: block;
     margin-left: auto;
     margin-right: auto;
 	border: 2px solid #ddd;
 	border-radius: 5px;
 	transition: border 0.5s;
+	width: 50%;
+	min-width: 200px;
+	max-width: 350px;
 }
 
 .moneythink img:hover {
